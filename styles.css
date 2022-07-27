@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    background-color: #000;
+    color: #ffffff;
+}
+
+a, a:hover, a:visited {
+
+    color: unset;
+    text-decoration: none;
+}
+header{
+    height: 220px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo-cabeçalho-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Logo-cabeçalho-container img {
+    width: 235px;
+}
+
+.Logo-cabeçalho-container h1 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+
+.Logo-cabeçalho-container p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-Devjj {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.largura-card {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+#sales {
+    padding: 40px 10px;
+}
+
+.title-color {
+
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.devjj-form-control {
+height: 46px;
+background-color: #1B2531;
+border: 1px solid #384459;
+border-radius: 5px;
+width: 100%;
+color: #9AAABE;
+padding: 0 20px;
+font-size: 18px;
+
+}
+
+.devjj-form-control-container {
+    margin-bottom: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
