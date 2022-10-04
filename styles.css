@@ -83,15 +83,85 @@ font-size: 18px;
 
 .devjj-form-control-container {
     margin-bottom: 16px;
+    max-width: 300px;
 
 }
 
+.devjj-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
 
+.devjj-table thead {
+    height: 55px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
 
+.devjj-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCF;
+    text-align: center;
 
+}
 
+.devjj-table tbody tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
 
+.devjj-table tbody tr:hover > td {
+    background-color: #000;
+}
 
+.devjj-table tbody tr:nth-child(odd) {
+    background-color: #242C3B;
+}
 
+.devjj-btv {
+    height: 45px;
+    width: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.devjj-btv img {
+    width: 19px;
+}
 
+.devjj-btv-container {
+    display: flex;
+    justify-content: center;
+}
+
+.limit-data {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .limit-data {
+        display: table-cell;
+    }
+
+    .card-Devjj {
+        padding: 35px;
+    }
+}
+
+.limit-992 {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .limit-992 {
+        display: table-cell;
+    }
+}
